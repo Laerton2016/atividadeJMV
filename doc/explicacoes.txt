@@ -1,0 +1,31 @@
+O Java é uma liguagem de programação para diversas plataformas, 
+desde dispsitivo móveis a grandes computadores. Devido a essa caracteristica
+a linguagem conta com três ambietens de desenvolvimento 
+JSE (J2SE), JEE (J2EE) e JME ou (J2ME)
+Materemos o foco nesta última.
+
+A partir de 2006 passou-se a utilizar a nova nomemclatura sem o número 2.
+
+O JME ou Java Micro Edition, projetado para desenvolver em dispositívos moveis,
+como celulares, ela teve uma fácil aceitação pois tratava-se de uma adpatação da 
+liguagem Java já muito conhecida. As empresas poderam tirar proveito, pois bastando
+seus equipamentos terem uma JVM seria possível, com poucos ajustes, implementar
+aplicativos em qualquer aparelho, tendo como único limite a capacidade do Hardware.
+
+JME tem bibliotecas trabalhadas especialmente para atuar em dispositíveis com 
+baixa capacidad de hardware. Uma destas caracteristicas é o CLDC (Connected Limited Device Configuration ou Configuração de dispositivo limitado conectada), essa configuração
+contém uma JVM com um conjunto de bibliotecas que permitem o funcionamento de aplicações
+javas em dispositivos com limites de hardware como 512K de memória e Processadores
+de 16 bits
+
+O JME foi muito dissiminado por causa do SO Symbiam da Nokia.
+
+Com a chegadas dos novos OS para dispositívos moveis, como Android, IOS e Windows10, principalmente pelo Android que usa Java mas ao mesmo tempo não usa mais JME, o conceito
+de uso de JME para esses dispositivos mudou. 
+
+Aplicação JME - Conceitos
+Aplicativo mobile em Java chama-se Midlet (MID vem de Dispositivo de aplicação Moveis)
+A classe principal da aplicação extende da classe abstrata MIDlet, ela oferece os metodos
+para controlar o ciclo de vida da aplicação.
+Aplicações Mobile em Java não contem main() para rodar e sim startApp() herdada do Midlet
+
